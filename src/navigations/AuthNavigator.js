@@ -1,6 +1,9 @@
 import React, { useContext, useEffect } from "react";
 import { createStackNavigator } from "@react-navigation/stack";
-import { AddProductScreen, EditProductScreen, ProductListScreen } from "../screens";
+import  AddProductScreen from "../screens/AddProductScreen";
+import  EditProductScreen from "../screens/EditProductScreen";
+import  ProductListScreen from "../screens/ProductListScreen";
+
 const Stack = createStackNavigator();
 
 function AuthNavigator({}) {
